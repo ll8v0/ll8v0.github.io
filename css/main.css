@@ -1,39 +1,51 @@
-* {
-            margin:0;
-            padding:0;
-        }
-        
-        a {
-            text-decoration:none;
-            font-weight:800;
-            font-size:1rem;
-            color:#343434;
-            tarnsition: all ease-in-out 250ms;
-        }
-        
-        body {
-            width:100%;
-        }
-        
-        .kuonechan {
-            width:90%;
-            margin:40% auto;
-        }
-        
-        .kuonechan .love {
-            font-size:3rem;
-            font-weight:900;
-            color:#343434;
-        }
-        
-        .kuonechan .him>a:hover {
-            color:violet;
-        }
-        
-        .kuonechan .so>a:hover {
-            color:tomato;
-        }
-        
-        .kuonechan .much>a:hover {
-            color:gold;
-        }
+body {
+    background-color: rgb(255, 250, 233);
+}
+
+.wrapper {
+    display:flex;
+    /* justify-content: space-evenly; */
+    
+}
+
+.menuwrapper {
+    width:360px;
+    /* height:100vh; */
+    /* background-color: #999; */
+    padding:70px 80px;
+}
+
+.menuwrapper h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom:7px;
+}
+.menuwrapper h2 {
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.menuwrapper .mole {
+    width:7px;
+    height:8px;
+    border-radius: 50%;
+    background-color:saddlebrown;
+    margin:19px 0 19px 94px;
+
+}
+
+.menuwrapper ul li {
+    margin:15px 0;
+}
+.menuwrapper ul li > ul > li {
+    margin-left:30px;
+}
+
+.container {
+    padding:70px 80px;
+}
+
+.container p.tail {
+    font-size: 0.8rem;
+    color:#999;
+}
