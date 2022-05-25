@@ -41,8 +41,8 @@ body {
     margin-left:30px;
 }
 
-li a:hover {
-    color:pulm;
+li:hover a {
+    color:plum;
 }
 
 .container {
