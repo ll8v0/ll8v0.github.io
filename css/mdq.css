@@ -1,0 +1,129 @@
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+    body {
+        background-color: rgb(255, 250, 233);
+    }
+    
+    .wrapper {
+        display:flex;
+        /* justify-content: space-evenly; */
+        
+    }
+    
+    .menuwrapper {
+        width:360px;
+        /* height:100vh; */
+        /* background-color: #999; */
+        padding:70px 80px;
+    }
+    
+    .menuwrapper .title h1 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom:7px;
+    }
+    .menuwrapper .title h2 {
+        font-weight: 400;
+        margin-bottom: 80px;
+    }
+    
+    .menuwrapper .title .mole {
+        width:7px;
+        height:8px;
+        border-radius: 50%;
+        background-color:saddlebrown;
+        margin:19px 0 19px 94px;
+    
+    }
+    
+    .menuwrapper ul li {
+        margin:15px 0;
+    }
+    .menuwrapper ul li > ul > li {
+        margin-left:30px;
+    }
+    
+    .container {
+        padding:70px 80px;
+    }
+    
+    .container p.tail {
+        font-size: 0.8rem;
+        color:#999;
+    }
+
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 1199px) {
+
+    body {
+        background-color: rgb(255, 250, 233);
+    }
+    
+     
+    .menuwrapper {
+        display: flex;
+        width:100%;
+        padding:2% 3%;
+    }
+    .menuwrapper .title { 
+        width:50%;
+    }
+
+    .menuwrapper .title h1 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom:7px;
+    }
+    .menuwrapper .title h2 {
+        font-size:0.9rem;
+        font-weight: 400;
+        margin-bottom: 2%;
+    }
+    
+    .menuwrapper .title .mole {
+        width:7px;
+        height:8px;
+        border-radius: 50%;
+        background-color:saddlebrown;
+        margin:5% 0 5% 78%;
+    
+    }
+    
+    .menuwrapper ul {
+        width:50%;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .menuwrapper ul strong {
+        display: none;
+    }
+
+    .menuwrapper ul li {
+        width: 20%;
+        height: 40%;
+        margin:15px 0;
+        text-align: center;
+    }
+
+    .menuwrapper ul li a {
+        line-height:28px;
+    }
+
+    .container {
+        padding:70px 80px;
+    }
+    
+    .container p.tail {
+        font-size: 0.8rem;
+        color:#999;
+    }
+    
+
+}
+
+
