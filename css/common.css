@@ -14,3 +14,7 @@
 h1, h2, h3, h4, ul, li, a, p, span, strong {
     mix-blend-mode: difference;
 }
+
+.menuwrapper {
+    position:fixed;
+}
