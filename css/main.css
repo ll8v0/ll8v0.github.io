@@ -1,0 +1,9 @@
+body {
+    height:500vh;
+    background-image: url('ll8v0.github.io/img/com4.jpg'), url('ll8v0.github.io/img/com5.jpg'), url('ll8v0.github.io/img/com6.jpg');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:top, center, bottom;
+    background-attachment:scroll, scroll, scroll;
+    /* background-size:cover, cover, cover; */
+
+}
