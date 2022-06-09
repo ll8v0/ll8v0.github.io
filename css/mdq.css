@@ -3,7 +3,7 @@
 @media (min-width: 1200px) and (max-width: 1920px) {
 
     body {
-        background-color: rgb(255, 250, 233);
+        background-color: #000;
     }
 
     
@@ -78,7 +78,7 @@
 @media (min-width: 300px) and (max-width: 1199px) {
 
     body {
-        background-color: rgb(0, 0, 0);
+        background-color: #000;
     }  
      
     .menuwrapper {
