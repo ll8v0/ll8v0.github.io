@@ -17,8 +17,11 @@
 }
 
 
-.menuwrapper h1, h2, p, a, strong, span {
+.menuwrapper h1, h2, p, a, strong, span, li {
     color:#999;
     mix-blend-mode: difference;
 }
 
+.menuwrapper ul {
+    color:#f2f2f2;
+}
