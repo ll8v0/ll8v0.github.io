@@ -9,12 +9,12 @@
         }
         
         body {
-            background-image: url('/img/mind_your_head.jpg');
+            background-image: url('/img/pf.png');
             background-position: top;
             background-attachment: fixed;
             background-size: contain;
             background-repeat: no-repeat;
-            background-color: black;
+            background-color: #fff;
         }
 
         .wrapper {
