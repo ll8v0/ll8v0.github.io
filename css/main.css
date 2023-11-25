@@ -10,9 +10,5 @@
         
         body {
             background-image: url('posterblk.jpeg');
-            background-position: top;
-            background-attachment: fixed;
-            background-size: 100%;
-            background-repeat: no-repeat;
             background-color: #000;
         }
