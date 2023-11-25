@@ -10,10 +10,9 @@
         
 body {
             background-color: #000;
+            ackground-image: url('posterblk.jpeg');
 }
 
 main {
-            width: 150px;
-            height:150px;
-            background-color: coral;
+
 }
