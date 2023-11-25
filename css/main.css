@@ -9,10 +9,11 @@
         }
         
 body {
+            height: 3000px;
             background-color: #000;
-            background-image: url('//posterblk.jpeg');
-            background-size: cover;
-            background-position: left;
+            background-image: url('//ll8v0.github.io/posterblk.jpeg');
+            background-size: contain;
+            background-position: left top;
             background-repeat: no-repeat;
 }
 
